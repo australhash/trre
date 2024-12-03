@@ -14,4 +14,6 @@ const updateTimes = () => {
 
 updateTimes()
 
-setInterval( () => { updateTimes() }, 1000)
+setInterval( function () { 
+	updateTimes() 
+}, 1000)

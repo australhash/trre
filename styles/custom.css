@@ -1,0 +1,37 @@
+/*****************************
+******************************
+Scrollbar styles
+******************************
+*****************************/
+/*width*/
+::-webkit-scrollbar {
+  width:14px;
+}
+
+/*track*/
+::-webkit-scrollbar-track {
+  background:rgb(239, 239, 239);
+}
+
+/*thumb*/
+::-webkit-scrollbar-thumb {
+  background:rgb(176, 176, 176);
+  border-width:4px;
+  border-style:solid;
+  border-color:rgb(239, 239, 239);
+  border-radius:100px;
+}
+/*****************************
+******************************
+Select color
+******************************
+*****************************/
+*::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: rgba(33, 41, 53, 1);
+}
+
+*::selection {
+color: white;
+ background: rgba(33, 41, 53, 1);
+}

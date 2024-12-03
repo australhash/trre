@@ -4,7 +4,7 @@ const locations = document.querySelectorAll(".footer--hour")
 
 const updateTimes = () => {
 	locations.forEach(location => {
-		const zone = location.querySelector("span")
+		const zone = location.querySelector(".time--footer")
 		const timezone = location.getAttribute("data-timezone")
 		
 		const now = luxon.DateTime.now().setZone(timezone)

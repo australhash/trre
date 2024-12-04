@@ -201,6 +201,7 @@ RESET STYLES
       * {
         box-sizing: border-box;
         font-weight: normal;
+       -webkit-tap-highlight-color: transparent;
       }
     }
   }

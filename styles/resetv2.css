@@ -200,7 +200,6 @@ RESET STYLES
 
 
  html body * {
-   background: red;
   box-sizing: border-box;
   font-weight: normal;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

@@ -35,3 +35,7 @@ Select color
 color: white;
  background: rgba(33, 41, 53, 1);
 }
+
+*{
+ -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+}
